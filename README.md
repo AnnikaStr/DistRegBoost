@@ -11,7 +11,7 @@ require('gamboostLSS')
 source('bivariateGaussian.R') # load family
 
 # data generation
-n = 5000
+n <- 5000
 set.seed(1)
 
 x1 <- runif(n)
